@@ -4,11 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fetch Posts</title>
+    <style>
+        button{
+            background-color: aquamarine;
+        }
+        button:hover{
+            background-color: rgb(24, 102, 236);
+            width: 150px ;
+            height: 50px;
+        }
+        h1{
+            color: green;
+        }
+        body{
+            background-image: url("https://logintechs.com/wp-content/uploads/2022/10/Big-Data.jpg");
+            background-size: cover;
+        }
+        div{
+            color: aqua;
+        }
+    </style>
 </head>
 <body>
     <h1>Fetching the Data</h1>
     <button id="loadMore">Load Posts</button>
-    <div id="postsContainer"> loading the data........</div>
+    <div id="postsContainer"> <h3>loading the data........</h3></div>
 
     <script>
         document.getElementById("loadMore").addEventListener("click", function () {
